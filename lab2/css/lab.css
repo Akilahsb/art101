@@ -1,0 +1,35 @@
+h1 {
+    color: pink;
+    Font-size: 500%;
+    font-family: cursive;
+    text-shadow: 3px 3px #777D6A
+  }
+
+p {
+   Font-family: "times new roman";
+   text-indent: 20px;
+   margin-left: 10px;
+   color: green;
+}
+
+img {
+  width: "380";
+  height: "500";
+  margin-right: 90px;
+  transform: rotate(90deg);
+  transform-origin: right;
+
+}
+
+#content {
+  background-color: #B4E650;
+  width: 500px;
+}
+#content {
+  border-style: double;
+  border-color: green;
+  border-width: thick;
+}
+body{
+  background-color: pink;
+}
