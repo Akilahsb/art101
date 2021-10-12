@@ -6,3 +6,28 @@ border-style: double;
 border-color: #021B3D;
 border-width: thick;
 }
+h1{
+  font-family: cursive;
+  color: #EE0385;
+  text-shadow: 3px 3px #021B3D;
+}
+p{
+  text-align: center;
+  transform-origin: top;
+  transform-origin: right;
+}
+#content{
+  background-color: #0449A7;
+  border-style: groove;
+  border-color: #021B3D;
+}
+h2{
+  font-family: cursive;
+  color: #EE0385;
+  text-shadow: 3px 3px #021B3D;
+}
+h3{
+  font-family: cursive;
+  color: #EE0385;
+  text-shadow: 3px 3px #021B3D;
+}
