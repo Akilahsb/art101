@@ -1,0 +1,8 @@
+#my_portrait{
+width: 300px;
+align-content: center;
+transform-origin: right;
+border-style: double;
+border-color: #021B3D;
+border-width: thick;
+}

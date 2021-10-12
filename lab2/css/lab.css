@@ -13,12 +13,11 @@ p {
 }
 
 img {
-  width: "380";
+  width: "350";
   height: "500";
   margin-right: 90px;
   transform: rotate(90deg);
   transform-origin: right;
-
 }
 
 #content {
