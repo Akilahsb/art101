@@ -5,7 +5,7 @@
 //
 //Licence: Public Domain.
 //
-var name= window.prompt("Hand over your name :)");
+var name= window.prompt("May I have your name :)");
 
  function sortUser(name){
    var userName= name;
