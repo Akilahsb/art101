@@ -5,49 +5,35 @@
 //Licence: Public Domain.
 
 //Create a "FizzBuzz" function similar to how we did in class
+function outputToPage(str) {
+  new1 = document.createElement("p");
+  newEl.innerHTML = str;
+  outputEl.appendChild(newEl);
 
+}
+function mod(){
 
-function fizzBuzzBoom(maxNums, factorObj) {
-
-  for(var num=0; num<maxNums; num++)  {
-
+  for(i=1;i <= 200;i++){
     var outputStr = "";
-
-    for (var factor in factorObj) {
-
-      if (num % factor == 0) {
-
-        outputStr += factorObj[factor];
-
-      }
+    if(i % 3 == 0 && i%5 == 0){
+      console.log("fizzbuzz");
     }
-    if (outputStr) {
-       outputStr = " - " + outputStr + "!";
+    else if(i%15 == 0){
+      console.log("fizzbuzz");
+      outputToPage("fizzbuzzboom" + outputStr);
     }
-    outputToPage(num.toString() + outputStr)
-  }
-}
-//have function report error
-function reportError(str) {
-      outputEl.innerHTML = "<div class= 'error'>" + str + "</div>;"
-}
-//add event listener
-document.getElemenById("submit").addEventListener("click", function(){
-  var max = document.getElemetById("max").value;
-  console.log("max:", max);
-  if (! max) {
-      reportError("You must provide a maximum");
-      return;
-  }
-  var factorObj = getFactorObj();
-  console.log("factorObj:", factorObj);
-  if (object.keys(factorObj).length === 0){
-    reportError("You must provide at least one factor and text");
-    return;
+    else if(i%7 == 0){
+      console.log("fizzbuzzboom");
+      outputToPage("boom" + outputStr);
 
-  }
+    }
+    else if(i%5 == 0){
+      console.log("buzz");
+      outputToPage("boom" + outputStr);
 
-  outputEl.innerHTML = "";
-  fizzBuzzBoom(max, factorObj);
-  outputEl.classList.add("cols");
-})
+    }
+    else if(i%3 ==0){
+      console.log("fizz");
+      outputToPage("fizz" + outputStr);
+    }
+  } 
