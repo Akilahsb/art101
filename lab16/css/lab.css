@@ -7,42 +7,42 @@ img {
 }
 
 h1{  font-family: cursive;
-  color:  #5d91b0;
+  color:  #CE5C93;
   text-shadow: 1px 1px #021B3D;
 }
 h2{
   font-family: cursive;
-   color: #5d91b0;
+   color: #CE5C93;
    text-shadow: 1px 1px #021B3D;
 }
 h3{
   font-family: cursive;
-   color: #e83633;
+   color: #CE5C93;
    text-shadow: 1px 1px #021B3D;
 }
 p {
    Font-family: "times new roman";
    margin-left: -10px;
-   color: #edf6fc;
+   color: #B44479;
 }
 #content {
-  background-color:  #7cb4d6;
+  background-color:  #EFA3A4;
   width: 1300px;
 }
 #content {
   border-style: double;
-  border-color: #7cb4d6;
+  border-color: #932963;
   border-width: thick;#e83633
 }
 body{
-  background-color: #a1c8f7;
+  background-color: #FACBBC;
 }
 
 div{
-  background-color: #82d18e;
+  background-color: #EFA3A4;
   width: 1300px;
   border-style: double;
-  border-color: #ffffff;
+  border-color: #932963;
   border-width: thick;
 
 }
