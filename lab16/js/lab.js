@@ -30,14 +30,16 @@ $.ajax({
     .done(function(data) {
         // do stuff
         console.log("success", data);
-        var imgUrl = data.img;
+        var titleTxt = data.answer;
+        $("#title").html(titleTxt);
+        var imgUrl = data.image;
         var imgTag = "<img src=" + imgUrl + ">";
-        console.log(imgUrl, imgTag);
-        $("#output").html(imgTag)
+        onsole.log(imgUrl, imgTag);
+        $("#image").html(imgUrl)
     });
     // What we do if the api call fails
-  fail(function(request, error) {
+    .fail(function(request,error) {
         // do stuff
-        console.log(request, error);
+        console.log(request,error);
     });
   }
