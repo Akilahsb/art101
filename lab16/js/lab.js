@@ -36,7 +36,7 @@ $.ajax({
         $("#output").html(imgTag)
     });
     // What we do if the api call fails
-  .fail(function(request, error) {
+  fail(function(request, error) {
         // do stuff
         console.log(request, error);
     });
