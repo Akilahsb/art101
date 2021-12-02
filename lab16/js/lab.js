@@ -34,7 +34,7 @@ $.ajax({
         $("#title").html(titleTxt);
         var imgUrl = data.image;
         var imgTag = "<img src=" + imgUrl + ">";
-        onsole.log(imgUrl, imgTag);
+        console.log(imgUrl, imgTag);
         $("#image").html(imgUrl)
     });
     // What we do if the api call fails
